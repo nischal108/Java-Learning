@@ -15,22 +15,22 @@ public class day6{
          //}
 
          // sum of n natural numbers
-        //  int i = 0;
-        //  int sum = 0;
-        //  while(i<=n){
-        //     sum = sum + i;
-        //     i++;
-        //  }
-        //     System.out.println(sum);   
+         int i = 0;
+         int sum = 0;
+         while(i<=n){
+            sum = sum + i;
+            i++;
+         }
+            System.out.println(sum);   
         
         
                     //forloop
         // //sum of natural numbers
-        // int sum = 0;
-        // for(int i = 1; i <= n;i++){   // here all three statements are optional, initialization, condition and  final expression but we have to use ;
-        //      sum = sum +i;
-        // }
-        //  System.out.println(sum);
+        int sum = 0;
+        for(int i = 1; i <= n;i++){   // here all three statements are optional, initialization, condition and  final expression but we have to use ;
+             sum = sum +i;
+        }
+         System.out.println(sum);
 
                         //do while loop 
                 // first work and after that check condition , first iteration will work 
@@ -67,12 +67,12 @@ public class day6{
 
                         // wap to print numbers from 1 to 50 except the multiples of 3
 
-                        // for(int num = 1; num<=50; num++){
-                        //     if(num%3==0){
-                        //         continue;
-                        //     }
-                        //     System.out.println(num);
-                        // }
+                        for(int num = 1; num<=50; num++){
+                            if(num%3==0){
+                                continue;
+                            }
+                            System.out.println(num);
+                        }
 
 
                                     //labels
