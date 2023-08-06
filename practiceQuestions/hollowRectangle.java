@@ -1,4 +1,3 @@
-package practiceQuestions;
 
 import java.util.Scanner;
 
@@ -20,5 +19,6 @@ public class hollowRectangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

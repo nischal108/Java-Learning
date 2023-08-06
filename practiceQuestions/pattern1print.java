@@ -1,4 +1,4 @@
-package practiceQuestions;
+
 
 public class pattern1print {
     public static void main(String[] args) {
