@@ -15,7 +15,7 @@ public class methods {
     }
   
     public static void main(String[] args) {
-      checkAge(10); // Call the checkAge method and pass along an age of 20
+      checkAge(14); // Call the checkAge method and pass along an age of 20
     }
   }
   
