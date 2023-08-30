@@ -17,8 +17,8 @@ public class problem_1 {
 
         //main operation
         for (int i = 0; i < array1.length; i++) {
-            for (int j = i; j < array1.length; j++) {
-                if (i+j == sum) {
+            for (int j = i+1; j < array1.length; j++) {
+                if (array1[i] +array1[j] == sum) {
                     counter++;
                 }
             }
