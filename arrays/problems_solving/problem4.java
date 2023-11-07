@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class problem4 {
     static int secondMax(int[] arr){
-        int max2= Integer.MIN_VALUE9 7 5 3 8 2;
+        int max2= Integer.MIN_VALUE;
         int maxvalue = Integer.MIN_VALUE;
         for (int i =0 ; i<arr.length ; i++){
             if(arr[i]> maxvalue){
