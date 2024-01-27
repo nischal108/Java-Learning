@@ -30,5 +30,5 @@ public class diffnumberpattern {
             System.out.println();
         }   
     }
-    
+    sc.close();
 }
