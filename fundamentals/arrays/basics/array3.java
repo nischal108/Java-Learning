@@ -1,4 +1,5 @@
-class helloWorld{
+
+lass helloWorld{
     //declaring an array 
 
     String cars[] ={ "alto","merchedes", "mustang"};
