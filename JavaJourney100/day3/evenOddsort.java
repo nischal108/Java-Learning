@@ -1,15 +1,9 @@
 
 import java.util.Scanner;
 
-
-
 // sort an array in such a way that first all the even numbers are displayed and then odd
 
 public class evenOddsort {
-
-
-
-
 
     // following two pointers algorithm
     static void goodSort(int[] arr) {
@@ -17,9 +11,9 @@ public class evenOddsort {
         int right = arr.length - 1;
 
         while (left < right) {
-            if (arr[left] %2 == 0) {
+            if (arr[left] % 2 == 0) {
                 left++;
-            } else if (arr[right] %2 != 0) {
+            } else if (arr[right] % 2 != 0) {
                 right--;
             } else {
                 swap(arr, left, right);

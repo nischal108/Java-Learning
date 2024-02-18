@@ -29,3 +29,4 @@ untitled/.idea/vcs.xml
 untitled/.idea/modules.xml
 untitled/src/Main.java
 arrays/problems_solving/reversingarray/src/Main.java
+*.class

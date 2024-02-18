@@ -26,6 +26,6 @@ public class pyradim{
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }
