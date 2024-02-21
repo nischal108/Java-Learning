@@ -1,3 +1,5 @@
+package day2;
+
 /*  searching for a number in an array and displaying whether a number is present 
  * and if present how many times is it present content of the array is between 0 and 1000000
  * the program must be time efficient
@@ -8,7 +10,6 @@
  * the freq array stores the freq of repetition of the content of array so when the ask we don't have to traverse the array.
 */
 
-package JavaJourney100.day2;
 
 import java.util.Scanner;
 

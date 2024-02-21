@@ -1,4 +1,7 @@
-package JavaJourney100.day2;
+package day2;
+
+
+
 
 import java.util.Scanner;
 
