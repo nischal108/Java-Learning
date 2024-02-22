@@ -1,0 +1,67 @@
+  
+
+
+  -> When we compile Java program using javac tool, the Java compiler converts the source code into byte code.
+
+
+   -> The main() method is executed by the JVM, so it doesn't require creating an object to invoke the main() method so it is a static method. So, it saves memory.
+
+
+   -> static public void main(String args[])   is same as public static void main (String[] args)
+
+   -> String[] args or String args[] is used for command line argument.
+
+
+
+   at compile time:
+   javacode -> compiler -> byte code
+
+   at runt time:
+
+   byte code -> classloader -> bytecode verifier ->interpreter -> runtime -> hardware
+
+
+
+-> you can save a Java source file by another name than the class name if and only if the class is not public.
+
+
+
+-> you can have multiple classes in a java source file
+
+
+
+JDK < JRE AND JVM
+
+JVM is a virtual machine and it loads code , verifies code , executes code and provides runtime environment.
+JRE exists physically, It contains a set of libraries + other files that JVM uses at runtime.
+
+JDK also exists physically and it is JRE + development tools.
+
+
+->  the JRE and JDK are collections of files and directories that can be physically installed on a system, the JVM is a virtual machine implemented in software. The JVM doesn't exist as a physical entity like hardware or a tangible package but serves as the runtime environment for executing Java programs.
+
+-> interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc)
+
+
+
+
+
+Internal architecure of JVM 
+
+classloader -> (class area , heap, stack , pc register, native method stack) -> execution engine -> native method interface ->java native librabries
+
+ heap is the runtime data area in which objects are allocated.
+ PC (program counter) register contains the address of the Java virtual machine instruction currently being executed.
+
+
+ execution engine contains a virtual processor + interpreter + JIT ( just in time compiler)
+
+JIT  is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. Here, the term "compiler" refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.
+
+
+
+java native interface is a framework that java uses to communicate with other applications to send output to the console or to interact with os librabries.
+
+
+
+

@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddSort",
+            "request": "launch",
+            "mainClass": "EvenOddSort",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "RotateArrayByKSteps",
+            "request": "launch",
+            "mainClass": "RotateArrayByKSteps",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "array_problem1",
+            "request": "launch",
+            "mainClass": "array_problem1",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "conditionals",
+            "request": "launch",
+            "mainClass": "conditionals",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "checkingIftheNumberisPresent",
+            "request": "launch",
+            "mainClass": "day2.checkingIftheNumberisPresent",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "reversingByKSteps",
+            "request": "launch",
+            "mainClass": "day2.reversingByKSteps",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "dowhile",
+            "request": "launch",
+            "mainClass": "dowhile",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "evenOddsort",
+            "request": "launch",
+            "mainClass": "evenOddsort",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "sortingArray",
+            "request": "launch",
+            "mainClass": "sortingArray",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "type",
+            "request": "launch",
+            "mainClass": "type",
+            "projectName": "java---java_6f4dd924"
+        },
+        {
+            "type": "java",
+            "name": "typeconvo",
+            "request": "launch",
+            "mainClass": "typeconvo",
+            "projectName": "java---java_6f4dd924"
+        }
+    ]
+}

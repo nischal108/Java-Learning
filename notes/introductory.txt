@@ -1,0 +1,29 @@
+   -> java is architecture neutral programming language 
+   
+   basically the size of the primitive data type remains same for all the architecture of systems.
+
+       *In C programming, int data type occupies 2 bytes of memory for 32-bit architecture and 4 bytes of memory for 64-bit architecture. However, it occupies 4 bytes of memory for both 32 and 64-bit architectures in Java.
+
+
+
+Java is a secure language since it uses its own environment for executing program due to which it can restrict the access of the program on the system and also no use of pointer makes it further secured
+
+
+java is interpreted from byte to machine code so it is comparitevely slower than any compiled language like c and c++
+
+A thread in Java is a lightweight process, and multi-threading allows multiple threads to execute independently within a single program. Java is a multi threaded language.
+
+Java is dynamic language , It means classes are loaded on demand during runtime. It also supports functions from its native languages, i.e., C and C++.
+
+java doesnb't support goto statement 😂
+
+
+we create two or more members having the same name but different in number or type of parameter, it is called overloading . like a function with same name but different parameters input(function overloading ) and java doesn't support operator overloading.
+
+Java supports call by value only. There is no call by reference in java.
+
+
+Java doesn't support structures and unions.
+
+
+Java has built-in thread support.
