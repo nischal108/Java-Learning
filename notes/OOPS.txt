@@ -1,0 +1,34 @@
+ -> Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+
+       -> Object   = Any entity that has state and behavior is known as an object. For example, a chair, pen, table, keyboard, bike, etc. It can be physical or logical.
+
+       -> Class   =     A class can also be defined as a blueprint from which you can create an individual object. Class doesn't consume any space.
+
+       -> Inheritance   = When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
+
+       -> Polymorphism   = If one task is performed in different ways, it is known as polymorphism. 
+
+       -> Abstraction   =   Hiding internal details and showing functionality is known as abstraction.
+
+       -> Encapsulation   = Binding (or wrapping) code and data together into a single unit are known as encapsulation. 
+
+
+       Apart from these concepts, there are some other terms which are used in Object-Oriented design: 
+
+       -> Coupling   =  Coupling refers to the knowledge or information or dependency of another class.
+                        Coupling refers to how much a class or module depends on or interacts with other classes or modules. 
+
+       -> Cohesion      = Cohesion refers to how strongly the elements of a class or module belong together and support a single purpose or responsibility.
+
+       -> Association   = Association represents the relationship between the objects. Here, one object can be associated with one object or many objects. 
+
+       -> Aggregation   = Aggregation is a way to achieve Association. Aggregation represents the relationship where one object contains other objects as a part of its state. 
+                            It represents the weak relationship between objects. 
+
+       -> Composition  = The composition represents the relationship where one object contains other objects as a part of its state. 
+                            There is a strong relationship between the containing object and the dependent object. It is the state where containing objects do not have an independent existence. If you delete the parent object, all the child objects will be deleted automatically.
+
+
+
+
+
