@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-
+ 
 class Account{
     int accNo;
     String name;
