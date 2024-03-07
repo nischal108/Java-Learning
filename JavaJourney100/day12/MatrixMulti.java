@@ -1,4 +1,5 @@
 package day12;
+
 import java.util.Scanner;
 
 public class MatrixMulti {
@@ -29,14 +30,12 @@ public class MatrixMulti {
         }
     }
 
-
-    static boolean checkCombatibility(int[][] array1, int[][] array2){
+    static boolean checkCombatibility(int[][] array1, int[][] array2) {
         return array1[0].length == array2.length;
     }
 
-    
-    static int[] [] multiplyArray(int[][] array1, int[] [] array2){
-        if(checkCombatibility(array1,array2)){
+    static int[][] multiplyArray(int[][] array1, int[][] array2) {
+        if (checkCombatibility(array1, array2)) {
             int row1 = array1.length;
             int col1 = array1[0].length;
             int col2 = array2[0].length;
@@ -57,10 +56,9 @@ public class MatrixMulti {
         }
     }
 
-
     public static void main(String[] args) {
-        int [] [] array1 =inputArray();
-        int [] [] array2 = inputArray();
+        int[][] array1 = inputArray();
+        int[][] array2 = inputArray();
         int[][] resultArray = multiplyArray(array1, array2);
 
         if (resultArray != null) {
@@ -68,4 +66,3 @@ public class MatrixMulti {
         }
     }
 }
-
