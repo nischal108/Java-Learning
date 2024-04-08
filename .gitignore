@@ -1,32 +1,3 @@
-arrays/twod.class
-arrays/twod.java
-arrays/array.class
-arrays/day1.class
-arrays/array3.class
-.gitignore
-arrays/maxvalue.class
-arrays/sum.class
-popular practice questions/fibonacciseries.class
-Desktop.iml
-.idea/misc.xml
-.gitignore
-.idea/vcs.xml
-.idea/modules.xml
-arrays/findTheIndexOfTheGivenTermInArray.java
-arrays/findTheIndexOfTheGivenTermInArray.class
-arrays/ArraySearch.class
-arrays/TAKING INPUT/input.class
-arrays/helloWorld.class
-arrays/HelloWorld.java
-arrays/LastOccurenceCalculator.class
-arrays/helloWorld.class
-arrays/helloWorld.class
-untitled/untitled.iml
-.gitignore
-untitled/.idea/misc.xml
-untitled/.idea/misc.xml
-untitled/.idea/vcs.xml
-untitled/.idea/modules.xml
-untitled/src/Main.java
-arrays/problems_solving/reversingarray/src/Main.java
+.vscode/
+*.xml
 *.class
