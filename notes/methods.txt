@@ -1,6 +1,0 @@
-
-
-In Java, a method is like a function which is used to expose the behavior of an object.
-
-
-functions inside classes are called methods//calling a function inside a class or simply calling a method requires us to build an instance of the particular class and if we don't want to we simply make the method static by placing static keyword before the return type
